@@ -5,7 +5,7 @@ def binary_search(seq, value):
         if seq[m] == value:
             return m
         if seq[m] > value:
-            r = m -1
+            r = m - 1
         else:
             l = m + 1
     return -1
