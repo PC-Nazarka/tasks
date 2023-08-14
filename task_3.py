@@ -5,4 +5,3 @@ for i in range(len(nums)):
             item = nums.pop(i)
             nums.insert(j, item)
 print(nums)
-            
