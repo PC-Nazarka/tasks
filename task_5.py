@@ -32,4 +32,3 @@ while q:
 
         if node.right:
             q.append(node.right)
-    
