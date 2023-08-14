@@ -5,10 +5,10 @@ def binary_search(seq, value):
         if seq[m] == value:
             return m
         if seq[m] > value:
-            r -= 1
+            r = m -1
         else:
-            l += 1
+            l = m + 1
     return -1
 
 numbers = list(range(1, 11))
-print(binary_search(numbers, 5))
+print(binary_search(numbers, 9))
